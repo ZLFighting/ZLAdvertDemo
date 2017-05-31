@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E164C8E1E655B37008031FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164C8D1E655B37008031FC /* main.m */; };
+		2E164C911E655B37008031FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164C901E655B37008031FC /* AppDelegate.m */; };
+		2E164C941E655B37008031FC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164C931E655B37008031FC /* HomeViewController.m */; };
+		2E164C991E655B37008031FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E164C981E655B37008031FC /* Assets.xcassets */; };
+		2E164C9C1E655B37008031FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E164C9A1E655B37008031FC /* LaunchScreen.storyboard */; };
+		2E164CA71E655B38008031FC /* ZLAdvertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164CA61E655B38008031FC /* ZLAdvertDemoTests.m */; };
+		2E164CB21E655B38008031FC /* ZLAdvertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164CB11E655B38008031FC /* ZLAdvertDemoUITests.m */; };
+		2E164CC21E655E84008031FC /* ZLAdvertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164CC11E655E84008031FC /* ZLAdvertView.m */; };
+		2E164CC51E6561FF008031FC /* ZLAdvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E164CC41E6561FF008031FC /* ZLAdvertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E164CA31E655B38008031FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E164C811E655B37008031FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E164C881E655B37008031FC;
+			remoteInfo = ZLAdvertDemo;
+		};
+		2E164CAE1E655B38008031FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E164C811E655B37008031FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E164C881E655B37008031FC;
+			remoteInfo = ZLAdvertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E164C891E655B37008031FC /* ZLAdvertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLAdvertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E164C8D1E655B37008031FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E164C8F1E655B37008031FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E164C901E655B37008031FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E164C921E655B37008031FC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2E164C931E655B37008031FC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2E164C981E655B37008031FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E164C9B1E655B37008031FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E164C9D1E655B37008031FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E164CA21E655B38008031FC /* ZLAdvertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLAdvertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E164CA61E655B38008031FC /* ZLAdvertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAdvertDemoTests.m; sourceTree = "<group>"; };
+		2E164CA81E655B38008031FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E164CAD1E655B38008031FC /* ZLAdvertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLAdvertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E164CB11E655B38008031FC /* ZLAdvertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAdvertDemoUITests.m; sourceTree = "<group>"; };
+		2E164CB31E655B38008031FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E164CC01E655E84008031FC /* ZLAdvertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAdvertView.h; sourceTree = "<group>"; };
+		2E164CC11E655E84008031FC /* ZLAdvertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAdvertView.m; sourceTree = "<group>"; };
+		2E164CC31E6561FF008031FC /* ZLAdvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAdvertViewController.h; sourceTree = "<group>"; };
+		2E164CC41E6561FF008031FC /* ZLAdvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAdvertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E164C861E655B37008031FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E164C9F1E655B38008031FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E164CAA1E655B38008031FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E164C801E655B37008031FC = {
+			isa = PBXGroup;
+			children = (
+				2E164C8B1E655B37008031FC /* ZLAdvertDemo */,
+				2E164CA51E655B38008031FC /* ZLAdvertDemoTests */,
+				2E164CB01E655B38008031FC /* ZLAdvertDemoUITests */,
+				2E164C8A1E655B37008031FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E164C8A1E655B37008031FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E164C891E655B37008031FC /* ZLAdvertDemo.app */,
+				2E164CA21E655B38008031FC /* ZLAdvertDemoTests.xctest */,
+				2E164CAD1E655B38008031FC /* ZLAdvertDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E164C8B1E655B37008031FC /* ZLAdvertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E164CBF1E655DBF008031FC /* ZLAdvert */,
+				2E164C8F1E655B37008031FC /* AppDelegate.h */,
+				2E164C901E655B37008031FC /* AppDelegate.m */,
+				2E164C921E655B37008031FC /* HomeViewController.h */,
+				2E164C931E655B37008031FC /* HomeViewController.m */,
+				2E164C981E655B37008031FC /* Assets.xcassets */,
+				2E164C9A1E655B37008031FC /* LaunchScreen.storyboard */,
+				2E164C9D1E655B37008031FC /* Info.plist */,
+				2E164C8C1E655B37008031FC /* Supporting Files */,
+			);
+			path = ZLAdvertDemo;
+			sourceTree = "<group>";
+		};
+		2E164C8C1E655B37008031FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E164C8D1E655B37008031FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E164CA51E655B38008031FC /* ZLAdvertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E164CA61E655B38008031FC /* ZLAdvertDemoTests.m */,
+				2E164CA81E655B38008031FC /* Info.plist */,
+			);
+			path = ZLAdvertDemoTests;
+			sourceTree = "<group>";
+		};
+		2E164CB01E655B38008031FC /* ZLAdvertDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E164CB11E655B38008031FC /* ZLAdvertDemoUITests.m */,
+				2E164CB31E655B38008031FC /* Info.plist */,
+			);
+			path = ZLAdvertDemoUITests;
+			sourceTree = "<group>";
+		};
+		2E164CBF1E655DBF008031FC /* ZLAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				2E164CC01E655E84008031FC /* ZLAdvertView.h */,
+				2E164CC11E655E84008031FC /* ZLAdvertView.m */,
+				2E164CC31E6561FF008031FC /* ZLAdvertViewController.h */,
+				2E164CC41E6561FF008031FC /* ZLAdvertViewController.m */,
+			);
+			path = ZLAdvert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E164C881E655B37008031FC /* ZLAdvertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E164CB61E655B38008031FC /* Build configuration list for PBXNativeTarget "ZLAdvertDemo" */;
+			buildPhases = (
+				2E164C851E655B37008031FC /* Sources */,
+				2E164C861E655B37008031FC /* Frameworks */,
+				2E164C871E655B37008031FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLAdvertDemo;
+			productName = ZLAdvertDemo;
+			productReference = 2E164C891E655B37008031FC /* ZLAdvertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E164CA11E655B38008031FC /* ZLAdvertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E164CB91E655B38008031FC /* Build configuration list for PBXNativeTarget "ZLAdvertDemoTests" */;
+			buildPhases = (
+				2E164C9E1E655B38008031FC /* Sources */,
+				2E164C9F1E655B38008031FC /* Frameworks */,
+				2E164CA01E655B38008031FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E164CA41E655B38008031FC /* PBXTargetDependency */,
+			);
+			name = ZLAdvertDemoTests;
+			productName = ZLAdvertDemoTests;
+			productReference = 2E164CA21E655B38008031FC /* ZLAdvertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E164CAC1E655B38008031FC /* ZLAdvertDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E164CBC1E655B38008031FC /* Build configuration list for PBXNativeTarget "ZLAdvertDemoUITests" */;
+			buildPhases = (
+				2E164CA91E655B38008031FC /* Sources */,
+				2E164CAA1E655B38008031FC /* Frameworks */,
+				2E164CAB1E655B38008031FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E164CAF1E655B38008031FC /* PBXTargetDependency */,
+			);
+			name = ZLAdvertDemoUITests;
+			productName = ZLAdvertDemoUITests;
+			productReference = 2E164CAD1E655B38008031FC /* ZLAdvertDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E164C811E655B37008031FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YSMX;
+				TargetAttributes = {
+					2E164C881E655B37008031FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+					};
+					2E164CA11E655B38008031FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E164C881E655B37008031FC;
+					};
+					2E164CAC1E655B38008031FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E164C881E655B37008031FC;
+					};
+				};
+			};
+			buildConfigurationList = 2E164C841E655B37008031FC /* Build configuration list for PBXProject "ZLAdvertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E164C801E655B37008031FC;
+			productRefGroup = 2E164C8A1E655B37008031FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E164C881E655B37008031FC /* ZLAdvertDemo */,
+				2E164CA11E655B38008031FC /* ZLAdvertDemoTests */,
+				2E164CAC1E655B38008031FC /* ZLAdvertDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E164C871E655B37008031FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E164C9C1E655B37008031FC /* LaunchScreen.storyboard in Resources */,
+				2E164C991E655B37008031FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E164CA01E655B38008031FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E164CAB1E655B38008031FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E164C851E655B37008031FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E164CC21E655E84008031FC /* ZLAdvertView.m in Sources */,
+				2E164C941E655B37008031FC /* HomeViewController.m in Sources */,
+				2E164C911E655B37008031FC /* AppDelegate.m in Sources */,
+				2E164C8E1E655B37008031FC /* main.m in Sources */,
+				2E164CC51E6561FF008031FC /* ZLAdvertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E164C9E1E655B38008031FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E164CA71E655B38008031FC /* ZLAdvertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E164CA91E655B38008031FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E164CB21E655B38008031FC /* ZLAdvertDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E164CA41E655B38008031FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E164C881E655B37008031FC /* ZLAdvertDemo */;
+			targetProxy = 2E164CA31E655B38008031FC /* PBXContainerItemProxy */;
+		};
+		2E164CAF1E655B38008031FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E164C881E655B37008031FC /* ZLAdvertDemo */;
+			targetProxy = 2E164CAE1E655B38008031FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E164C9A1E655B37008031FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E164C9B1E655B37008031FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E164CB41E655B38008031FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E164CB51E655B38008031FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E164CB71E655B38008031FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLAdvertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLAdvertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E164CB81E655B38008031FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLAdvertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLAdvertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E164CBA1E655B38008031FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLAdvertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLAdvertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLAdvertDemo.app/ZLAdvertDemo";
+			};
+			name = Debug;
+		};
+		2E164CBB1E655B38008031FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLAdvertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLAdvertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLAdvertDemo.app/ZLAdvertDemo";
+			};
+			name = Release;
+		};
+		2E164CBD1E655B38008031FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLAdvertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLAdvertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLAdvertDemo;
+			};
+			name = Debug;
+		};
+		2E164CBE1E655B38008031FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLAdvertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLAdvertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLAdvertDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E164C841E655B37008031FC /* Build configuration list for PBXProject "ZLAdvertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E164CB41E655B38008031FC /* Debug */,
+				2E164CB51E655B38008031FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E164CB61E655B38008031FC /* Build configuration list for PBXNativeTarget "ZLAdvertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E164CB71E655B38008031FC /* Debug */,
+				2E164CB81E655B38008031FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E164CB91E655B38008031FC /* Build configuration list for PBXNativeTarget "ZLAdvertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E164CBA1E655B38008031FC /* Debug */,
+				2E164CBB1E655B38008031FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E164CBC1E655B38008031FC /* Build configuration list for PBXNativeTarget "ZLAdvertDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E164CBD1E655B38008031FC /* Debug */,
+				2E164CBE1E655B38008031FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E164C811E655B37008031FC /* Project object */;
+}
