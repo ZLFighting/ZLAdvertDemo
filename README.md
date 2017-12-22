@@ -422,6 +422,6 @@ _adUrl = adUrl;
 ![启动页跳过广告.gif](https://github.com/ZLFighting/ZLAdvertDemo/blob/master/ZLAdvertDemo/启动页跳过广告.gif)
 
 
-如果需要启动动态页跳过的这种启动页方案 ,请移步: [iOS-启动动态页跳过设计思路]( http://www.jianshu.com/p/5d2931b1e40e)
+如果需要启动动态页跳过的这种启动页方案 ,请移步: [iOS-启动动态页跳过设计思路](https://github.com/ZLFighting/ZLStartPageDemo)
 
 您的支持是作为程序媛的我最大的动力, 如果觉得对你有帮助请送个Star吧,谢谢啦
